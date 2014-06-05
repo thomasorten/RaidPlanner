@@ -25,6 +25,8 @@
 		45D74EF1193F7111005DEEA2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D74ECC193F7110005DEEA2 /* CoreData.framework */; };
 		45D74EF9193F7111005DEEA2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45D74EF7193F7111005DEEA2 /* InfoPlist.strings */; };
 		45D74EFB193F7111005DEEA2 /* RaidPlannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D74EFA193F7111005DEEA2 /* RaidPlannerTests.m */; };
+		45D74F06193F72AA005DEEA2 /* Adventurer.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D74F05193F72AA005DEEA2 /* Adventurer.m */; };
+		45D74F09193F72AA005DEEA2 /* Raid.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D74F08193F72AA005DEEA2 /* Raid.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,10 @@
 		45D74EF6193F7111005DEEA2 /* RaidPlannerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RaidPlannerTests-Info.plist"; sourceTree = "<group>"; };
 		45D74EF8193F7111005DEEA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		45D74EFA193F7111005DEEA2 /* RaidPlannerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RaidPlannerTests.m; sourceTree = "<group>"; };
+		45D74F04193F72AA005DEEA2 /* Adventurer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Adventurer.h; sourceTree = "<group>"; };
+		45D74F05193F72AA005DEEA2 /* Adventurer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Adventurer.m; sourceTree = "<group>"; };
+		45D74F07193F72AA005DEEA2 /* Raid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Raid.h; sourceTree = "<group>"; };
+		45D74F08193F72AA005DEEA2 /* Raid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Raid.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +138,10 @@
 				45D74EE4193F7111005DEEA2 /* DetailViewController.m */,
 				45D74EE6193F7111005DEEA2 /* Images.xcassets */,
 				45D74EDD193F7111005DEEA2 /* RaidPlanner.xcdatamodeld */,
+				45D74F07193F72AA005DEEA2 /* Raid.h */,
+				45D74F08193F72AA005DEEA2 /* Raid.m */,
+				45D74F04193F72AA005DEEA2 /* Adventurer.h */,
+				45D74F05193F72AA005DEEA2 /* Adventurer.m */,
 				45D74ECF193F7110005DEEA2 /* Supporting Files */,
 			);
 			path = RaidPlanner;
@@ -264,10 +274,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				45D74EE5193F7111005DEEA2 /* DetailViewController.m in Sources */,
+				45D74F09193F72AA005DEEA2 /* Raid.m in Sources */,
 				45D74EE2193F7111005DEEA2 /* MasterViewController.m in Sources */,
 				45D74ED9193F7110005DEEA2 /* AppDelegate.m in Sources */,
 				45D74EDF193F7111005DEEA2 /* RaidPlanner.xcdatamodeld in Sources */,
 				45D74ED5193F7110005DEEA2 /* main.m in Sources */,
+				45D74F06193F72AA005DEEA2 /* Adventurer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
